@@ -1,0 +1,30 @@
+@prefix ex: <http://example.org/amazon#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+ex:Product1 a ex:Product;
+  ex:hasTitle "radio";
+  ex:hasPrice "100.00"^^xsd:float;
+  ex:belongsToCategory "Electronics".
+
+ex:Product2 a ex:Product;
+  ex:hasTitle "fiction";
+  ex:hasPrice "50.00"^^xsd:float;
+  ex:belongsToCategory "Books".
+
+ex:Product3 a ex:Product;
+  ex:hasTitle "smartphone";
+  ex:hasPrice "500.00"^^xsd:float;
+  ex:belongsToCategory "Electronics".
+
+ex:Product4 a ex:Product;
+  ex:hasTitle "running shoes";
+  ex:hasPrice "80.00"^^xsd:float;
+  ex:belongsToCategory "Fashion".
+
+ex:Product5 a ex:Product;
+  ex:hasTitle "coffee maker";
+  ex:hasPrice "120.00"^^xsd:float;
+  ex:belongsToCategory "Home & Kitchen".
